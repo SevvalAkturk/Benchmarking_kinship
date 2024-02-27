@@ -1,10 +1,5 @@
 # Script to generate noised frequency data based on a given MAF freq file.
 
-# Check if MAF freq file path and sample size are provided as command-line arguments.
-if (length(commandArgs(trailingOnly = TRUE)) < 2) {
-  stop("Please provide the MAF file path and sample size as command-line arguments.")
-}
-
 # Get the MAF freq file path and sample size from the command line arguments.
 maf_file <- commandArgs(trailingOnly = TRUE)[1]
 sample_size <- as.numeric(commandArgs(trailingOnly = TRUE)[2])
