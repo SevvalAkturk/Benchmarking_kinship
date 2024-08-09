@@ -9,7 +9,7 @@
 
 DIRout=/path/to/output                  #output directory
 snpbed=/path/to/snpcall_200K.bed        #bed file with 200K SNPs
-ref=/path/to/hs37d5.fa                  #reference fasta file
+ref=/path/to/hs37d5.fa                  #human reference fasta file
 samtools=/path/to/samtools              #samtools version 1.9
 sequenceTools=/path/to/sequenceTools    #sequenceTools version 1.4.0
 filename=xxx                            #name of the output file
