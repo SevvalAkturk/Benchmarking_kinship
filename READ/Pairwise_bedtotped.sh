@@ -14,7 +14,7 @@ DIRout=/path/to/output  #output directory
 cd $DIRout
 ls keep_r* > keep.list
 
-#Prepare pairwise tped files and remove the missing sites
+#Generate pairwise tped files and remove the missing sites
 for keep in $(cat $DIRout/keep.list)
 do
 grep -w -f ${keep} ${file}.fam > ${keep}.fam
