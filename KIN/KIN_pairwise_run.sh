@@ -17,7 +17,7 @@ for target in $(cat /path/to/targets.list)
 do
 cd $DIRout/${b}/${N}/${target}
 
-#Run KIN with updated p_0.txt 
+#Run KIN with updated p_0.txt for five different overlapping SNP counts (N) 
 /path/to/KIN -I $DIRout/${b}/${N}/${target}/ -O $DIRout/${b}/${N}/${target}/analysis/ -c [node] 
 	echo ${target} ${N} ${b} KIN DONE
 done
