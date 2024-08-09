@@ -17,7 +17,7 @@ mkdir -p $DIRout/results/output_ordered
 #Make a list of pairwise tped files
 ls keep*.tped > tped.list
 
-#Prepare unique downsampled SNP list for each simulated pair and run READ
+#Prepare unique downsampled SNP list for each simulated pair and run READ with five different overlapping SNP counts (N)
 for file in $(cat $DIRout/tped.list)
 do
 filebase=$(basename $file .tped)	
