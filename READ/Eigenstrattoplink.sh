@@ -8,7 +8,7 @@
 
 
 DIRout=/path/to/output            #output directory
-filename=xxx                      #name of the output file
+filename=xxx                      #name of the parameter file
 admixtools=/path/to/admixtools    #admixtools version 7.0.2
 
 $admixtools/convertf -p $DIRout/{filename}
