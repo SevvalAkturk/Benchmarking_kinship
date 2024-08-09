@@ -11,4 +11,5 @@ DIRout=/path/to/output            #output directory
 filename=xxx                      #name of the parameter file
 admixtools=/path/to/admixtools    #admixtools version 7.0.2
 
+#Convert genotypying file in eigenstrat format to plink format
 $admixtools/convertf -p $DIRout/{filename}
